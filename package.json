@@ -1,0 +1,18 @@
+{
+  "name": "lab11",
+  "version": "1.0.0",
+  "description": "You take the Playwright suite  and make a machine run it. By the\r end you have a GitHub Actions workflow that runs on every push and every pull request,\r publishes the HTML report as a downloadable artifact, retries only in CI, and records a\r trace on the first retry. You then introduce one flaky test, triage it from CI output,\r and fix the cause rather than the symptom.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
